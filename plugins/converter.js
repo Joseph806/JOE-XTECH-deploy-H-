@@ -35,7 +35,7 @@ cmd({
         // Send result
         await client.sendMessage(from, {
             image: imageBuffer,
-            caption: "> Powered By Popkid Xtech 🤍",
+            caption: "> Powered By JOEX-tech 🤍",
             mimetype: 'image/png'
         }, { quoted: message });
 

@@ -114,21 +114,22 @@ const port = process.env.PORT || 9090;
   
   let up = `*✨ Hello, POPKID-XTECH Legend! ✨*
 
-╭─〔 *🤖 POPKID-XTECH BOT* 〕  
-├─▸ *Simplicity. Speed. Power!*  
+╭─〔 *🤖 JOE-XTECH BOT* 〕  
+├─▸ *Simplicity. Speed. Power. BY JOSEPH.  
+|    MWANGI!*  
 ╰─➤ *Your New WhatsApp Sidekick is Here!*
 
-*❤️ Thank you for Choosing POPKID-MD!*
+*❤️ Thank you for Choosing JOEX-MD!*
 
 ╭──〔 🔗 *Quick Links* 〕  
 ├─ 📢 *Join Our Channel:*  
-│   Click [**Here**](https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l) to join!  
+│   Click [**Here**](https://whatsapp.com/channel/0029VaiMTRbG8l5JsXcquT1f) to join!  
 ├─ ⭐ *Give Us a Star:*  
-│   Star Us [**Here**](https://github.com/Popkiddevs/POPKID-XTECH)!  
+│   Star Us [**Here**](https://github.com/Joseph806/Joe-XTECH)!  
 ╰─🛠️ *Prefix:* \`${prefix}\`
 
-> _© MADE BY POPKID_`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/lkmvah.jpg` }, caption: up })
+> _© MADE BY JOSEPH MWANGI_`;
+    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/1puwkb.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
@@ -213,7 +214,7 @@ const port = process.env.PORT || 9090;
   conn.sendMessage(from, { text: teks }, { quoted: mek })
   }
   const udp = botNumber.split('@')[0];
-    const jawad = ('254732297194', '254111385747', '254752681127');
+    const jawad = ('254114305147', '254101827915', '254707989095');
     let isCreator = [udp, jawad, config.DEV]
 					.map(v => v.replace(/[^0-9]/g) + '@s.whatsapp.net')
 					.includes(mek.sender);
@@ -260,7 +261,7 @@ const port = process.env.PORT || 9090;
 				}
  //================ownerreact==============
     
-  if(senderNumber.includes("254732297194")){
+  if(senderNumber.includes("254114305147")){
   if(isReact) return
   m.react("🦋")
    }
@@ -783,7 +784,7 @@ if (!isReact && senderNumber === botNumber) {
   }
   
   app.get("/", (req, res) => {
-  res.send("POPKID MD STARTED ✅");
+  res.send("THANKS FOR USING JOEX-TEQ IS  STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {

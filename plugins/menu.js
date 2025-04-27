@@ -21,7 +21,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 *┃🎮* *ʀᴀᴍ ᴜsᴇ* : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)},GB / ${Math.round(require('os').totalmem / 1024 / 1024)},GB
 *┃🧑* *ᴅᴇᴠ* : *ᴘᴏᴘᴋɪᴅ ᴛᴇᴄʜ*
 *┃🚀* *ᴠᴇʀsɪᴏɴs* : *1.0.0*
-> ©𝗱𝗲𝘃 𝗽𝗼𝗽𝗸𝗶𝗱🎮
+> ©𝗱𝗲𝘃 JOEX 🎮
 *╰════════════════⊷*
 *╭────🧊⁠⁠⁠⁠* *DOWNLOAD-CMD* *🧊⁠⁠⁠⁠* 
 *├🍟* *.ғʙ*
@@ -215,12 +215,12 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 *├⬡* *.ᴅᴇꜰɪɴᴇ*
 *├🫠* *.Dᴀɪʟʏꜰᴀᴄᴛ*
 *┕─────────────❒*
-> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴘᴏᴘᴋɪᴅ🎲`;
+> ᴘᴏᴡᴇʀᴇᴅ ʙʏ JOE🎲`;
 
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/nk71o3.jpg` },
+                image: { url: `https://files.catbox.moe/1puwkb.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -228,7 +228,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363290715861418@newsletter',
-                        newsletterName: 'PᴏᴘᴋɪᴅXᴛᴇᴄʜ',
+                        newsletterName: 'JOEXᴛᴇᴄʜ',
                         serverMessageId: 143
                     }
                 }

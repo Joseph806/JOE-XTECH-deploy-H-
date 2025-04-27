@@ -26,10 +26,10 @@ cmd({
         const currentHash = await getCommitHash();
 
         if (latestCommitHash === currentHash) {
-            return reply("✅ Your POPKID-MD bot is already up-to-date!");
+            return reply("✅ Your JOEX-MD bot is already up-to-date!");
         }
 
-        await reply("🚀 Updating POPKID-MD Bot...");
+        await reply("🚀 Updating JOEX-MD Bot...");
 
         // Download the latest code
         const zipPath = path.join(__dirname, "latest.zip");

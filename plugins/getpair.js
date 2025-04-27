@@ -5,9 +5,9 @@ cmd({
     pattern: "pair",
     alias: ["getpair", "clonebot"],
     react: "✅",
-    desc: "Get pairing code for POPKID-MD bot",
+    desc: "Get pairing code for JOEX-MD bot",
     category: "download",
-    use: ".pair +25473229XXX",
+    use: ".pair +2541143XXX",
     filename: __filename
 }, async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
@@ -16,7 +16,7 @@ cmd({
         
         // Validate phone number format
         if (!phoneNumber || !phoneNumber.match(/^\+?\d{10,15}$/)) {
-            return await reply("❌ Please provide a valid phone number with country code\nExample: .pair +25473229719XXX");
+            return await reply("❌ Please provide a valid phone number with country code\nExample: .pair +25411430XXX");
         }
 
         // Make API request to get pairing code
@@ -27,7 +27,7 @@ cmd({
         }
 
         const pairingCode = response.data.code;
-        const doneMessage = "> *POPKID-MD PAIRING COMPLETED🪆*";
+        const doneMessage = "> *JOEX-MD PAIRING COMPLETED🪆*";
 
         // Send initial message with formatting
         await reply(`${doneMessage}\n\n*Your pairing code is:* ${pairingCode}`);
@@ -49,9 +49,9 @@ cmd({
     pattern: "pair2",
     alias: ["getpair2", "clonebot2"],
     react: "✅",
-    desc: "Get pairing code for POPKID-MD bot",
+    desc: "Get pairing code for JOEX-MD bot",
     category: "download",
-    use: ".pair +25473229XXX",
+    use: ".pair +25411430XXX",
     filename: __filename
 }, async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
@@ -60,7 +60,7 @@ cmd({
         
         // Validate phone number format
         if (!phoneNumber || !phoneNumber.match(/^\+?\d{10,15}$/)) {
-            return await reply("❌ Please provide a valid phone number with country code\nExample: .pair +25473229XXX");
+            return await reply("❌ Please provide a valid phone number with country code\nExample: .pair +254114305XXX");
         }
 
         // Make API request to get pairing code
@@ -71,7 +71,7 @@ cmd({
         }
 
         const pairingCode = response.data.code;
-        const doneMessage = "> *POPKID-MD PAIRING COMPLETED🪆*";
+        const doneMessage = "> *JOEX-MD PAIRING COMPLETED🪆*";
 
         // Send initial message with formatting
         await reply(`${doneMessage}\n\n*Your pairing code is:* ${pairingCode}`);

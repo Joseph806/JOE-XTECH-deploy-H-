@@ -1,7 +1,7 @@
 {
-  "name": "POPKID-MD",
+  "name": "JOE-MD",
   "version": "3.0.0",
-  "description": "A WhatsApp Bot Created By Popkid",
+  "description": "A WhatsApp Bot Created By JOE",
   "main": "index.js",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name ZIPPY-XTECH",

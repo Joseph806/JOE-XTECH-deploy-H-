@@ -19,7 +19,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 *┃🎲* *ᴍᴏᴅᴇ* : *${config.MODE}*
 *┃📺* *ᴘʀᴇғɪx* : *${config.PREFIX}*
 *┃🎮* *ʀᴀᴍ ᴜsᴇ* : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)},GB / ${Math.round(require('os').totalmem / 1024 / 1024)},GB
-*┃🧑* *ᴅᴇᴠ* : *ᴘᴏᴘᴋɪᴅ ᴛᴇᴄʜ*
+*┃🧑* *ᴅᴇᴠ* : *JOEX ᴛᴇᴄʜ*
 *┃🚀* *ᴠᴇʀsɪᴏɴs* : *1.0.0*
 > ©JOE TEQ 🎮
 *╰════════════════⊷*

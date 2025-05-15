@@ -215,12 +215,12 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 *├⬡* *.ᴅᴇꜰɪɴᴇ*
 *├🫠* *.Dᴀɪʟʏꜰᴀᴄᴛ*
 *┕─────────────❒*
-> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴘᴏᴘᴋɪᴅ🎲`;
+> ᴘᴏᴡᴇʀᴇᴅ ʙʏ JOEX 🎲`;
 
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/e6rhto.jpg` },
+                image: { url: `https://files.catbox.moe/1puwkb.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -228,7 +228,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363290715861418@newsletter',
-                        newsletterName: 'PᴏᴘᴋɪᴅXᴛᴇᴄʜ',
+                        newsletterName: 'JOEXXᴛᴇᴄʜ',
                         serverMessageId: 143
                     }
                 }

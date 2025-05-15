@@ -43,7 +43,7 @@ const {
   const path = require('path')
   const prefix = config.PREFIX
   
-  const ownerNumber = ['254732297194']
+  const ownerNumber = ['254114305147']
   
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -112,24 +112,24 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*✨ Hello, POPKID-XTECH Legend! ✨*
+  let up = `*✨ Hello, JOE-XTECH Legend! ✨*
 
-╭─〔 *🤖 POPKID-XTECH BOT* 〕  
-├─▸ *Simplicity. Speed. Power. BY POPKID.  
+╭─〔 *🤖 JOE-XTECH BOT* 〕  
+├─▸ *Simplicity. Speed. Power. BY JOSEPH.  
 |    XTECH!*  
 ╰─➤ *Your New WhatsApp Sidekick is Here!*
 
-*❤️ Thank you for Choosing POPKID-MD!*
+*❤️ Thank you for Choosing JOEX-MD!*
 
 ╭──〔 🔗 *Quick Links* 〕  
 ├─ 📢 *Join Our Channel:*  
-│   Click [**Here**](https://whatsapp.com/channel/0029VadQrNI8KMqo79BiHr3l) to join!  
+│   Click [**Here**](https://whatsapp.com/channel/0029VaiMTRbG8l5JsXcquT1f) to join!  
 ├─ ⭐ *Give Us a Star:*  
-│   Star Us [**Here**](https://github.com/Popkiddevs/POPKID-XTECH)!  
+│   Star Us [**Here**](https://github.com/Joseph806/Joe-XTECH)!  
 ╰─🛠️ *Prefix:* \`${prefix}\`
 
-> _© MADE BY POPKID_`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/e6rhto.jpg` }, caption: up })
+> _© MADE BY JOSEPH_`;
+    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/1puwkb.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
@@ -261,7 +261,7 @@ const port = process.env.PORT || 9090;
 				}
  //================ownerreact==============
     
-  if(senderNumber.includes("254732297194")){
+  if(senderNumber.includes("254101827915")){
   if(isReact) return
   m.react("❤️‍🩹")
    }
@@ -784,7 +784,7 @@ if (!isReact && senderNumber === botNumber) {
   }
   
   app.get("/", (req, res) => {
-  res.send("POPKID IS  STARTED ✅");
+  res.send("JOEX IS  STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
